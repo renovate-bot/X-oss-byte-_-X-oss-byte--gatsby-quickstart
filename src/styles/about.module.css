@@ -1,0 +1,42 @@
+.about_cont h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about_info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media (max-width:700px) {
+    .about_info {
+        flex-direction: column;
+    }
+}
+
+.about_text {
+    flex-basis: 50%;
+}
+
+.about_text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.about_img {
+    flex-basis: 50%;
+    width: 200px;
+    border-radius: 10px;
+}
+
+@media (max-width:700px) {
+    .about_info {
+        flex-direction: column;
+    }
+
+    .about_img {
+        width: 100%;
+    }
+}
